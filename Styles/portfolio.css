@@ -178,8 +178,24 @@ main section{
 
 footer{
     display: flex;
+    gap: 117px;
     background: #FFF8F3;
     margin-top: 130px;
     padding: 130px 200px;
 
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 24px ;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
 }
